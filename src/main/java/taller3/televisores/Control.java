@@ -31,12 +31,12 @@ public class Control {
     }
     
     public void volumenUp(){
-        if (tv.volumen>=0 && tv.volumen !=8 && tv.estado==true)
+        if (tv.volumen>=0 && tv.volumen !=7 && tv.estado==true)
             tv.volumen++;
     }
     
     public void volumenDown() {
-        if (tv.volumen>0 && tv.volumen <=8 && tv.estado==true)
+        if (tv.volumen>0 && tv.volumen <=7 && tv.estado==true)
             tv.volumen=tv.volumen-1;
     }
 
