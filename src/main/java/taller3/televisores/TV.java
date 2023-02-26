@@ -16,6 +16,13 @@ public class TV  {
         this.estado=estado;
         numTV++;
     }
+    //setters y getters de numTV
+    static public void setNumTV(int numTV){
+        TV.numTV=numTV;
+    }
+    static public int getNumTV() {
+    	return numTV;
+    }
 
     //metodo para acceder al numTV
     public int getNumTv(){
@@ -94,4 +101,3 @@ public class TV  {
             ++volumen;
     }
 }
-
